@@ -854,8 +854,8 @@ body {
   cursor: pointer;
 }
 
-.input-wrap:focus .input-icon,
-.input-wrap:hover .input-icon {
+.modal-input:focus + .input-icon,
+.modal-input:hover + .input-icon {
   fill: var(--accent-color);
 }
 
